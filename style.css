@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600,800")
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-image: url("images/portland.jpg");
+    background-repeat: no-repeat;
+    padding:35px;
+    color: white;
+    background-color: #d1d3d3;
+    font-family: 'Raleway', sans-serif;
+    line-height: 190%;
+}
+/* styling navigation and main titles */
+nav {
+    width: 100%;
+    height: auto;
+}
+nav ul a li{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 90%;
+    opacity: .8;
+    padding-right: 5%;
+}
+.main-titles {
+    padding: 10% 10% 10.6% 10%;
+    border: 5px solid gold;
+}
+h1 {
+    font-size: 550%;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 4px 4px black;
+}
+h4  {
+    font-size: 250%;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 4px 4px black;
+}
+/* styling about us section */
+h2  {
+    font-size: 300%;
+    font-weight: 200;
+    color: #190a0a;
+    text-align: center;
+    margin-top: 12%;
+}
+.about-us p {
+    width: 90%;
+    font-size: 125%;
+    font-weight: 200;
+    color: #190a0a;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.recent-reviews {
+    width: 100%;
+}
+.one-third1 {
+    width: 27%;
+    display: inline-block;
+}
+.one-third1 img {
+    width: 90%;
+    height: 300px;
+    margin-left: 39%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    box-shadow: 5px 5px 3px #888888;
+}
+h5  {
+    font-size: 125%;
+    font-weight: 200;
+    color: #190a0a;
+    text-align: center;
+}
+/* styling the presenting section */
+.presenting {
+    width: 100%;
+    margin-top: 8%;
+}
+.presenting article {
+    width: 75%;
+    display: inline-block;
+}
+.presenting aside {
+    width: 20%;
+    display: inline-block;
+}
+.presenting-img img {
+    width: 60%;
+    display: inline-block;
+    box-shadow: 5px 5px 3px #888888;
+}
+.presenting-text {
+    font-size: 125%;
+    font-weight: 200;
+    color: #190a0a;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.presenting-text2 {
+    font-size: 125%;
+    font-weight: 200;
+    color: #190a0a;
+    width: 90%;
+    margin-left: 3.7%;
+    margin-bottom: 5%;
+}
+  /* styling candy and wrapping pictures */
+.candy-img, .wrap-img, .ing-choc {
+    width: 22%;
+    display: inline-block;
+}
+.candy-img img, .wrap-img img, .ing-choc img {
+    width: 95%;
+    height: 250px;
+    box-shadow: 5px 5px 3px #888888;
+    margin-left: 17%;
+}
+.candy-img, .wrap-img {
+    margin-top: 4%;
+}
+.desc p {
+    font-size: 125%;
+    color: #190a0a;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/* styling find them section */
+h3  {
+    font-size: 175%;
+    color: #190a0a;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.contact-them {
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+}
+.contact-them img {
+    width: 94%;
+    height: 400px;
+    box-shadow: 5px 5px 3px #888888;
+    margin-left: 15%;
+}
+.contact-info {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 10%;
+    margin-left: 15%;
+}
+.contact-info p {
+    font-size: 125%;
+    color: #190a0a;
+}
+.contact-info a {
+    text-decoration: none;
+}
+/* styling how to find us section */
+.contact-us i {
+    font-size: 300%;
+    color: #190a0a;
+    margin-left: 32%;
+    margin-right: -25%;
+    margin-top: 5%;
+}
+.contact-us i:hover {
+    color: #58c4c0;
+}
+/* back to top arrow */
+.arrow i {
+      font-size: 300%;
+      color: black;
+      opacity: .5;
+      float: right;
+      margin-right: 5%;
+      border: 5px solid gray;
+      border-radius: 15px;
+}
+.arrow i:hover {
+      color: #11b0d8;
+}
+/* footer styling */
+footer {
+      width: 100%;
+      height: 100px;
+      background-color: gray;
+      margin-top: 8%;
+}
+footer p  {
+      color: black;
+      text-align: center;
+      opacity: .5;
+      line-height: 150%;
+      padding-top: 3%;
+      margin-bottom: -.5%;
+}
