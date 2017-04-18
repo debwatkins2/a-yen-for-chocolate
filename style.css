@@ -28,7 +28,7 @@ nav ul a li{
     padding-right: 5%;
 }
 .main-titles {
-    padding: 10% 10% 10.6% 10%;
+    padding: 10% 10% 13% 10%;
     border: 5px solid gold;
 }
 h1 {
@@ -49,7 +49,7 @@ h2  {
     font-weight: 200;
     color: #190a0a;
     text-align: center;
-    margin-top: 12%;
+    margin-top: 5%;
 }
 .about-us p {
     width: 90%;
@@ -116,15 +116,15 @@ h5  {
     margin-bottom: 5%;
 }
   /* styling candy and wrapping pictures */
-.candy-img, .wrap-img, .ing-choc {
+.candy-img, .wrap-img, .choc-img {
     width: 22%;
     display: inline-block;
 }
-.candy-img img, .wrap-img img, .ing-choc img {
+.candy-img img, .wrap-img img, .choc-img img {
     width: 95%;
     height: 250px;
     box-shadow: 5px 5px 3px #888888;
-    margin-left: 17%;
+    margin-left: 26%;
 }
 .candy-img, .wrap-img {
     margin-top: 4%;
@@ -207,3 +207,46 @@ footer p  {
       padding-top: 3%;
       margin-bottom: -.5%;
 }
+
+
+@media screen and (max-width: 778px) {
+  h1  {
+      font-size: 400%;
+  }
+  h2  {
+      margin-top: 30%;
+  }
+  .one-third1 img {
+      width: 100%;
+      margin-right: 4%;
+      height: 200px;
+  }
+  .main-titles {
+      margin-top: 15%;
+  }
+  .presenting {
+      margin-top: -5%;
+  }
+  .presenting article {
+      width: 60%; {
+  }
+  .presenting aside {
+      width: 35%;
+  }
+  .presenting-img img {
+      width: 100%;
+      height: auto;
+  }
+  .candy-img, .wrap-img, .choc-img {
+      width: 48%;
+  }
+  .candy-img img, .wrap-img img, .choc-img img {
+      width: 95%;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 482px) {
