@@ -28,7 +28,7 @@ nav ul a li{
     padding-right: 5%;
 }
 .main-titles {
-    padding: 10% 10% 13% 10%;
+    padding: 10%;
     border: 5px solid gold;
 }
 h1 {
@@ -65,22 +65,25 @@ h2  {
     width: 100%;
 }
 .one-third1 {
-    width: 27%;
+    width: 31%;
     display: inline-block;
+    float: left;
+    margin-left: 5%;
+    margin-right: -4%;
 }
 .one-third1 img {
-    width: 90%;
+    width: 80%;
     height: 300px;
-    margin-left: 39%;
     margin-top: 5%;
-    margin-bottom: -5%;
     box-shadow: 5px 5px 3px #888888;
+    margin-bottom: 5%;
 }
 h5  {
     font-size: 125%;
     font-weight: 200;
     color: #190a0a;
     text-align: center;
+    margin-top: 5%;
 }
 /* styling the presenting section */
 .presenting {
@@ -92,13 +95,15 @@ h5  {
     display: inline-block;
 }
 .presenting aside {
-    width: 20%;
+    width: 22%;
     display: inline-block;
+    margin-top: 5%;
 }
 .presenting-img img {
     width: 60%;
     display: inline-block;
     box-shadow: 5px 5px 3px #888888;
+    margin-bottom: -7%;
 }
 .presenting-text {
     font-size: 125%;
@@ -216,9 +221,13 @@ footer p  {
   h2  {
       margin-top: 30%;
   }
+  .one-third1 {
+      width: 48%;
+  }
   .one-third1 img {
-      width: 100%;
+      width: 90%;
       margin-right: 4%;
+      margin-left: -2%;
       height: 200px;
   }
   .main-titles {
@@ -237,14 +246,16 @@ footer p  {
       width: 100%;
       height: auto;
   }
-  .candy-img, .wrap-img, .choc-img {
+  .choc-img {
       width: 48%;
   }
-  .candy-img img, .wrap-img img, .choc-img img {
-      width: 95%;
+  .candy-img {
+      width: 48%;
+  }
+  .wrap-img {
+      width: 48%;
   }
 
-}
 
 
 
