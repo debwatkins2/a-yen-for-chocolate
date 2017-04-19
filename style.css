@@ -226,6 +226,53 @@ footer p  {
   h4  {
       font-size: 175%;
   }
+  .about-us h2 {
+      font-size: 225%;
+  }
+  .one-fourth1 {
+      width: 46%;
+  }
+  .one-fourth1 img {
+      width: 100%;
+      margin-left: 2%;
+  }
+  .present-img img{
+      height: 210px;
+      margin-left: -3%;
+      margin-top: 5%;
+  }
+  article .present-text {
+      width: 90%;
+  }
+  .candy-img, .wrap-img, .choc-img {
+      width: 46%;
+  }
+  .candy-img img, .wrap-img img, .choc-img img {
+      width: 90%;
+      margin-left: 12%;
+  }
+  .contact-them {
+      width: 46%;
+  }
+  .contact-them img {
+      width: 95%;
+      margin-left: 15%;
+  }
+  .contact-info {
+      width: 90%;
+      margin-left: 20%;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 400px) {
   nav ul li {
