@@ -262,22 +262,57 @@ footer p  {
       width: 90%;
       margin-left: 20%;
   }
-
-
-
-
-
-
-
-
-
-
+}
 
 
 @media screen and (max-width: 400px) {
   nav ul li {
       margin-left: -5%;
       margin-right: 5%;
+      margin-top: 5%;
   }
   .main-titles {
-      margin-bottom: 20%;
+      margin-bottom: 30%;
+  }
+  .one-fourth1 {
+      width: 100%;
+  }
+  .one-fourth1 img {
+      width: 90%;
+  }
+  .presenting h2 {
+      font-size: 200%;
+  }
+  .present-img {
+      width: 100%
+  }
+  .present-img img {
+      width: 80%;
+      height: 350px;
+      margin-left: 8%;
+      margin-bottom: 3%;
+  }
+  article .present-text {
+      width: 90%;
+  }
+  .candy-img, .wrap-img, .choc-img {
+      width: 100%;
+  }
+  .candy-img img, .wrap-img img, .choc-img img {
+      width: 90%;
+      margin-left: 5%;
+  }
+  .contact-them {
+      width: 100%;
+  }
+  .contact-them img {
+      width: 90%;
+      margin-left: 5%;
+  }
+  .contact-info {
+      width: 90%;
+      margin-left: 8%;
+  }
+  .arrow i {
+      display: none;
+  }
